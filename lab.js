@@ -7,6 +7,13 @@
 */
 
 //CODE HERE
+var lovesCode = true
+console.log(lovesCode)
+if (lovesCode){
+  console.log("I love to Code!")
+} else {
+  console.log("Coding has it's challenges")
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
@@ -21,7 +28,14 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
+if(amysAge < brittanisAge) {
+  console.log("Brittani is older")
+}
+else if (amysAge===brittanisAge){
+console.log("They are the same age")
+} else {
+  console.log("Amy is older")
+}
 
 ////////// PROBLEM 3 //////////
 
@@ -30,6 +44,11 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+if(amysBirthYear===brittanisBirthYear){
+  console.log("They were born the same year")
+} else {
+  console.log("they were not born the same year")
+}
 
 
 
@@ -42,6 +61,7 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
+var firstItem=[0]
 
 
 ////////// PROBLEM 5 //////////
@@ -51,6 +71,9 @@ var arr = [10,20,30,40,50,60]
 
 //Code Here
 
+let lastItemRemoved=arr.pop()
+console.log(arr)
+console.log(lastItemRemoved)
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
@@ -62,6 +85,9 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
+for (let i=0; i < family.length;i++){
+  console.log(family[i])
+}
 
 
 
@@ -92,7 +118,17 @@ var score = 74
 
 //Code Here
 
-
+if (score>90){
+  console.log("A")
+} else if (score>80 && score <89){
+console.log("B")
+} else if (score>70 && score <79){
+  console.log("C")
+} else if (score>60 && score <69){
+  console.log("D")
+} else { 
+  console.log("F")
+}
 ////////// Intermediate Problems //////////
 
 ////////// PROBLEM 9 //////////
@@ -103,6 +139,8 @@ var score = 74
 */
 
 //CODE HERE
+let changeMyMind = true 
+if (changeMyMind == true || changeMyMind == false){   console.log(!changeMyMind) }
 
 
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
